@@ -67,3 +67,18 @@ document.addEventListener("keydown" , function(e){
 })
 
 
+const coress = ["red", "green", "blue", "yellom", "purple" , "black" , "white"]
+let indice = 0
+
+document.addEventListener("keydown", function(){
+
+    document.body.style.backgroundColor= cores[indice]
+
+    indice++
+
+    if (indice >= coress.length){
+        indice =0
+
+    }
+})
+

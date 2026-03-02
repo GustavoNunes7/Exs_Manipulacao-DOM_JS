@@ -46,6 +46,7 @@ document.addEventListener("keydown" , function(e){
 
     } else if (tecla === "p"){
         document.body.style.backgroundColor= "purple"
+        document.body.style.color= "white"
         cor.innerHTML = "Cor: Roxo (purple)"
         teclaTexto.innerHTML = `Tecla: ${cores.roxo}`
         console.log(e.key + " -> rgb(128, 0, 128)")
